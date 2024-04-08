@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./Asset/index.css">
+    <script src="./Asset/index.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <label>Gideon EBUBEDIKE</label>
+            <div id="old-nav">
+                <a href="#home" class="smooth-scroll" id="home-tab">Home</a>
+                <a href="#services" class="smooth-scroll" id="services-tab">Services</a>
+                <a href="#skills" class="smooth-scroll" id="skills-tab">Skills</a>
+                <a href="#about" class="smooth-scroll" id="about-tab">About</a>
+                <a href="#contact" class="smooth-scroll" id="contact-tab">Contact</a>
+                <a href="#theme" onclick="changeTheme()"><i class="fas fa-moon" class="theme-button"></i></a>
+            </div>
+            <button id="three-bars" onclick="showMenuBar()" onblur="hideMenuBar()"><i class="fa fa-bars"></i></button>
+            <div id="new-nav">
+                <a href="#home" class="smooth-scroll" id="home-tab">Home</a>
+                <a href="#services" class="smooth-scroll" id="services-tab">Services</a>
+                <a href="#skills" class="smooth-scroll" id="skills-tab">Skills</a>
+                <a href="#about" class="smooth-scroll" id="about-tab">About</a>
+                <a href="#contact" class="smooth-scroll" id="contact-tab">Contact</a>
+                <a href="#theme" onclick="changeTheme()"><i class="fas fa-moon" class="theme-button"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home parallax" id="home">
+        <div class="my-info">
+            <h1>Hello, i am Gideon EBUBEDIKE</h1>
+            <h2>A <span class="auto-type"></span></h2>
+            <p>Gideon is a seasoned Software/web Developer, data entry specialist, QA Engineer and a Data Entry Specialist, he bring a wealth of experience and expertise 
+                in developing robust web applications and ensuring their quality through meticulous testing practices.
+                With a strong foundation in both frontend and backend technologies, coupled with a passion for delivering exceptional user experiences,
+                he haS consistently contributed to the success of projects.</p>
+            <div class="home-btns">
+                <button class="solid-btn">Contact Me</button>
+                <button class="hollow-btn">Download CV</button>
+            </div>
+        </div>
+        <div class="my-pic">
+            <div id="my-pic-circle">
+
+            </div>
+            <img src="./Asset/Gidds.jpg" id="my-pic-real">
+            <div class="contact-icon-holder">
+                <button class="contact-icons"><i class="fa fa-instagram"></i></button>
+                <button class="contact-icons"><i class="fa fa-twitter"></i></button>
+                <button class="contact-icons"><i class="fa fa-linkedin"></i></button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="services parallax" id="services">
+        <label>My Services</label>
+        <div>
+            <div id="service-1">
+                <label>Quality Assurance</label>
+                <p>Detail-oriented Quality Assurance engineer with a strong background in ensuring the reliability, functionality, and usability of software products. <Br>
+                </Br>
+                    Proficient in designing and executing comprehensive test plans, identifying defects, and collaborating with cross-functional teams to ensure product excellence. 
+                    Skilled in automation testing, manual testing, and continuous integration techniques. <br>
+                    Committed to maintaining high standards of quality throughout the software development lifecycle.</p>
+                    <button class="solid-btn" style="width: 150px; height: 30px;">Read more</button>
+            </div>
+            <div id="service-2">
+                <label>Software Development</label>
+                <p>Experienced software developer with a passion for crafting efficient, scalable, and maintainable solutions. <Br>
+                </Br> Proficient in various programming languages, frameworks, and development methodologies. <Br>
+                </Br> Skilled in problem-solving and collaboration, with a track record of delivering high-quality software products on time. Continuously learning and adapting to new technologies to stay ahead in a rapidly evolving industry."</p>
+                    <button class="solid-btn" style="width: 150px; height: 30px;">Read more</button>
+
+            </div>
+            <div id="service-3">
+                <label>Data entry specialist</label>
+                <p>Detail-oriented data entry specialist with a proven track record of accurately inputting and managing large volumes of data.
+                    Proficient in data entry software and tools, ensuring efficiency and accuracy in data processing tasks. <Br></Br>
+                    Skilled in data verification, cleansing, and organization to maintain data integrity.
+                    Able to work independently with minimal supervision, while also collaborating effectively with team members to meet project deadlines. 
+                    Dedicated to delivering high-quality results and exceeding expectations in data entry projects</p>
+                    <button class="solid-btn" style="width: 150px; height: 30px;">Read more</button>
+            </div>
+        </div>
+        <div class="read-more-btns">
+
+
+
+        </div>
+    </section>
+    <section class="skills parallax" id="skills">
+        <label>My Skills</label>
+        <div>
+            <div id="skill-1">
+                <label>Software Development</label>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>BootStrap</li>
+                    <li>Responsive Web Design</li>
+                    <li>Web Accessibility</li>
+                    <li>MongoDB</li>
+                    <li>Web Hosting and Deployment</li>
+                    <li>Search Engine Optimization</li>
+                </ul>
+            </div>
+            <div id="skill-2">
+                <label>Quality Assurance</label>
+                <ul>
+                    <li>html</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Post man</li>
+                    <li>Katalan studio</li>
+                    <li>Cypress</li>
+                    <li>Web driver io</li>
+                    <li>SQL</li>
+                    <li>J meter</li>
+                    <li>Security testing</li>
+                </ul>
+
+            </div>
+            <div id="skill-3">
+                <label>Data entry specialist</label>
+                <ul>
+                    <li>Microsoft Excel</li>
+                    <li>Google sheet</li>
+                    <li>PostgreSQL</li>
+                    <li>Optical Characte Recognition tools</li>
+                    <li>MySQL</li>
+                    <li>Data entry software</li>
+                    <li>Data validation tools</li>
+                    <li>Data cleening tools</li>
+                    <li>Automation tools</li>
+                    <li>Data import.export tools</li>
+                    <li>Document Management Sysyem</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="about parallax" id="about">
+        <img src="mypic-nobg.png">
+        <div>
+            <label>About Gideon EBUBEDIKE</label>
+            <div>
+                <p>"As a versatile professional, I bring a diverse skill set to the table, 
+                    combining the expertise of a seasoned software developer, meticulous QA engineer
+                 and proficient data entry specialist. With a passion for crafting robust software solutions,
+                 I excel in designing, developing, and maintaining high-quality applications that meet the needs of end-users.
+                My background in QA ensures that every software product I work on undergoes rigorous testing to ensure 
+                reliability, functionality, and usability. Additionally, my proficiency in data entry allows me to efficiently manage and organize large volumes of data with precision and accuracy. With a commitment to excellence and a dedication to continuous improvement, I thrive in dynamic environments where I can leverage my multidisciplinary skills to deliver exceptional results across the software development lifecycle."</p>
+
+            </div>
+            <button class="solid-btn" id="talk-btn">Let's Talk</button>
+        </div>
+
+    </section>
+
+    <section class="contact parallax" id="contact">
+        <div class="contact-block">
+            <label id="myLabel">Contact me</label>
+            <form id="myForm">
+                <div class="contact-field">
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="contact-field">
+                    <input type="text" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <div class="contact-msg">
+                    <textarea placeholder="Enter your message..."></textarea>
+                </div>
+                <div class="contact-btn">
+                    <button class="solid-btn">Send Message</button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
